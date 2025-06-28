@@ -6,7 +6,7 @@ from db import messages_collection
 from datetime import datetime
 
 # Initialize SocketIO
-socketio = SocketIO()
+socketio = SocketIO(async_mode='gevent', cors_allowed_origins="*")
 
 
 @socketio.on('connect')
