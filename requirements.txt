@@ -5,3 +5,4 @@ pymongo
 bcrypt
 gunicorn
 eventlet
+gevent
