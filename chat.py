@@ -4,7 +4,7 @@ from datetime import datetime
 import logging
 
 # Initialize SocketIO with CORS support
-socketio = SocketIO(cors_allowed_origins="*", logger=True, engineio_logger=True)
+# socketio = SocketIO(cors_allowed_origins="*", logger=True, engineio_logger=True)
 
 # Store connected users
 connected_users = {}
