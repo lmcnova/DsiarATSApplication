@@ -1,7 +1,3 @@
-# --- START OF FILE app.py ---
-from gevent import monkey
-monkey.patch_all()
-
 from flask import Flask, jsonify
 from flask_cors import CORS
 from auth import auth_bp
