@@ -1,4 +1,7 @@
 # --- START OF FILE app.py ---
+import eventlet
+eventlet.monkey_patch()
+
 
 
 from flask import Flask, jsonify
